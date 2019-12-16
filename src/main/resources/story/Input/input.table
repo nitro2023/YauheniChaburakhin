@@ -1,3 +1,2 @@
-
 |email|fullName|password|
 |#{generate(regexify '[a-z]{10}[1-9]{4}')}@ugly.email|#{generate(name.fullName)}|#{generate(regexify '[a-z]{10}[1-9]{2}')}|
